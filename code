@@ -1,3 +1,4 @@
+//C CODE TO REVERSE THREE-PHASE MOTOR ROTATION
 int main(void){
 	
 	DDRD  &=~ (1<<DDD2)|(1<<DDD3)|(1<<DDD4);													//PuertoD bit 2-4 entrada
